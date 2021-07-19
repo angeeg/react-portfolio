@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    margin: 3%;
+    width: 100%;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+}
+
+.github {
+    padding-right: 50px;
+}
