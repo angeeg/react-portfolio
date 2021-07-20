@@ -1,0 +1,10 @@
+.resume {
+    margin-left: 20%;
+    text-align: left;
+    width: 75%
+}
+
+.frontlist, .backlist {
+    list-style: outside;
+    display: inline-block;
+}

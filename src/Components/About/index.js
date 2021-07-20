@@ -22,7 +22,7 @@ function About() {
       <div className='aboutme'>
         
           <h1>About Me</h1>
-          <Avatar className={classes.bigAvatar} alt="Angeleena Syse" src="../../images/avatar.jpg" />
+          <Avatar className={classes.bigAvatar} alt="Angeleena Syse" src="../../images/avatar.jpg"/>
         <p>
           Hello, I'm Angeleena and I am a junior full stack web developer. I am
           still getting my feet wet in the coding world, but it is something I
@@ -46,7 +46,8 @@ function About() {
         </p>
 
         <p>
-          My previous professions were culinary arts as a line cook, and then a
+          My previous professions were in culinary arts as a line cook, and 
+          then veterinary medicine as a
           veterinary technician for the past 6 years. While my hands on skills
           from my pervious careers don't relate much to skills needed in the
           coding environment, there are several qualities I've inherited that

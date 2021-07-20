@@ -41,12 +41,21 @@ function Contact() {
     }
   };
 
+  const sendEmail = () => {
+      
+
+  }
+
   // return statement
   return (
     <div className="contact">
-      <h1>Contact</h1>
+      <h1 data-testid="h1tag">Contact</h1>
+
+      <p>Please  <a href='mailto:angeleenasyse@gmail.com'>send me an email</a>  and I'd be more than happy to connect. </p>
+    
+
       <form className="form" onSubmit={handleSubmit}>
-        <label>Name:</label>
+        <label htmlFor="name">Name:</label>
         <input
           type="text"
           name="name"
@@ -54,7 +63,7 @@ function Contact() {
           placeholder="Enter name"
           onBlur={handleChange}
         ></input>
-        <label>Email:</label>
+        <label htmlFor="email">Email:</label>
         <input
           type="email"
           name="email"
@@ -62,7 +71,7 @@ function Contact() {
           placeholder="Enter email address"
           onBlur={handleChange}
         ></input>
-        <label>Message:</label>
+        <label htmlFor="message">Message:</label>
         <textarea
           name="message"
           defaultValue={message}
@@ -76,6 +85,7 @@ function Contact() {
           </div>
         )}
         <button 
+        data-testid="button"
         type='submit'
         className="form-btn">
         Submit

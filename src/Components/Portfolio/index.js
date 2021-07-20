@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './style.css'
@@ -15,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: 'space-around'
     },
     imageList: {
-      width: 650,
-      height: 800,
+      width: 600,
+      height: 550,
     },
     icon: {
       color: 'rgba(255, 255, 255, 0.54)',
@@ -84,11 +83,8 @@ function Portfolio() {
         <div className='portfolio'>
          <h3>Portfolio</h3>   
         <ImageList className={classes.imageList}>
-          <ImageListItem key="Subheader" cols={2} style={{ height: 'auto' }}>
-           
-          </ImageListItem>
           {data.map((project) => (
-            <ImageListItem key={project.img}>
+            <ImageListItem key={project.img} cols={2}>
               <img src={project.image} alt={project.name} />
               <ImageListItemBar
                 title={project.name}
@@ -103,14 +99,6 @@ function Portfolio() {
           ))}
         </ImageList>
       </div>
-
-
-        // <div className='portfolio'>
-        // <h1>Portfolio</h1>
-        // {data.map(project => (
-        //     <h1>{project.name}</h1>
-        // ))}
-        // </div>
     )
 };
 
