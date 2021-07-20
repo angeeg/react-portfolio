@@ -12,15 +12,16 @@ function Footer() {
         <>
         <div className='footer'>
         <div className='icons'>
+        <span className='email'>
+        <a href="mailto:angeleenasyse@gmail.com"><EmailIcon fontSize="large"/></a>
+        </span>
         <span className='github'>
         <a href="https://github.com/angeeg"><GitHubIcon fontSize="large"/></a>
         </span>
         <span className='linkedin'>
         <a href="https://www.linkedin.com/in/angeleena-syse-16a1b0200/"><LinkedInIcon fontSize="large"/></a>
         </span>
-        <span className='email'>
-        <a href="mailto:angeleenasyse@gmail.com"><EmailIcon fontSize="large"/></a>
-        </span>
+   
         </div>
         </div>
         </>

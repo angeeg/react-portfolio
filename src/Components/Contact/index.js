@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { validateEmail } from '../../utils/helpers'
+import { MailTwoTone } from "@material-ui/icons";
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -13,11 +14,12 @@ function Contact() {
   const { name, email, message } = formState;
 
   // variable goes here
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (!errorMessage) {
       console.log("Submit form", formState);
     }
+
   };
 
   const handleChange = (event) => {
@@ -41,10 +43,7 @@ function Contact() {
     }
   };
 
-  const sendEmail = () => {
-      
 
-  }
 
   // return statement
   return (

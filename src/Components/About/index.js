@@ -22,7 +22,9 @@ function About() {
       <div className='aboutme'>
         
           <h1>About Me</h1>
+          <div className='avatar'>
           <Avatar className={classes.bigAvatar} alt="Angeleena Syse" src="../../images/avatar.jpg"/>
+          </div>
         <p>
           Hello, I'm Angeleena and I am a junior full stack web developer. I am
           still getting my feet wet in the coding world, but it is something I

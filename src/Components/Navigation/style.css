@@ -1,19 +1,23 @@
 .header {
     height: 150px;
-    background-image: url('header.jpeg');
+    background-image: url('images.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .name {
-   font-size: x-large;
+   font-size: 40px;
+   text-shadow: 2px 2px #f2f2f2;
+   
 }
 
 ul {
+    font-size: 20px;
     display: inline-flex;
     list-style: none;
     
@@ -26,6 +30,6 @@ li {
 
 li:hover {
  cursor: pointer;
- color:rgb(65, 204, 255, 0.529);
+ color:rgb(5, 134, 134);
 }
 

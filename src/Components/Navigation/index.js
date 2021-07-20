@@ -9,13 +9,13 @@ function Navigation(props) {
       <div className="header">
         <div className="name">
         <h2>
-          <a>Angeleena</a>
+          <a href="/" style={{ textDecoration:'none' }}>Angeleena</a>
         </h2>
         </div>
         <div className="nav">
         <ul className='list'>
           <li className="mx-2" onClick={() => props.setPage(props.pages[0])}>
-            <p>About Me</p>
+            <p>About</p>
           </li>
           <li className="mx-2" onClick={() => props.setPage(props.pages[1])}>
             <p>Portfolio</p>
