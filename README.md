@@ -13,7 +13,9 @@ Hello! I'm Angeleena Syse, a junior full-stack web developer and here is an insi
 ## Usage 
 This application was built with to display my portfolio of projects I have completed in my coding career. It can be used to get to know me a little better, view my work, and provide a way potential employers or collaborators can reach out to me. 
 
-<img href="https://angeeg-portfolio.herokuapp.com/" src="./portfolio.gif"/>
+<a href="https://angeeg-portfolio.herokuapp.com/">View my portfolio</a>
+
+<img src="./portfolio.gif"/>
 
 ## Credit 
 <a href="https://github.com/angeeg">angeeg</a> is the creator of this application. 
