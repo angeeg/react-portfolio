@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
 import { validateEmail } from '../../utils/helpers'
-import { MailTwoTone } from "@material-ui/icons";
 
 function Contact() {
   const [formState, setFormState] = useState({
