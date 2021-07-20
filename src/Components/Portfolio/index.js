@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: 'space-around'
     },
     imageList: {
-      width: 600,
-      height: 550,
+      width: 500,
+      height: 650,
     },
     icon: {
       color: 'rgba(255, 255, 255, 0.54)',
@@ -85,12 +85,14 @@ function Portfolio() {
         <ImageList className={classes.imageList}>
           {data.map((project) => (
             <ImageListItem key={project.img} cols={2}>
+               
               <img src={project.image} alt={project.name} />
+              
               <ImageListItemBar
-                title={project.name}
+                title={<a className='title' href={project.URL}>{project.name}</a>}
                 subtitle={<span>{project.language}</span>}
                 actionIcon={
-                  <IconButton href={project.URL} aria-label={`info about ${project.name}`} className={classes.icon}>
+                  <IconButton href={project.github} aria-label={`info about ${project.name}`} className={classes.icon}>
                     <GitHubIcon />
                   </IconButton>
                 }

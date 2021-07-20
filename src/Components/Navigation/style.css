@@ -17,9 +17,11 @@
 }
 
 ul {
-    font-size: 20px;
+    font-size: 30px;
     display: inline-flex;
     list-style: none;
+    text-shadow: 1px 1px #f2f2f2;
+    font-weight: 10px;
     
 }
 
@@ -30,6 +32,6 @@ li {
 
 li:hover {
  cursor: pointer;
- color:rgb(5, 134, 134);
+ color:rgb(68, 165, 225);
 }
 

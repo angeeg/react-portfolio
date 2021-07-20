@@ -30,7 +30,7 @@ function About() {
           still getting my feet wet in the coding world, but it is something I
           have become very passionate about over the past six months as I
           completed a full-stack coding bootcamp at UC Berkeley. While it was
-          fast-paced and quite challenging it was am amazing, rewarding
+          fast-paced and quite challenging it was an amazing, rewarding
           experience. I have grown as a web developer exponentially since
           Janurary 2021 when I started the program.
         </p>

@@ -4,3 +4,8 @@
     display: inline-block;
     font-family: 'Verdana, Geneva, Tahoma, sans-serif'
 }
+
+.title {
+    color: white;
+    text-decoration: none;
+}
