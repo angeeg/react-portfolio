@@ -5,11 +5,12 @@ import Portfolio from "./Components/Portfolio";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Resume from "./Components/Resume"
 
 function App() {
-  const pages = [<About />, <Portfolio />, <Contact />];
+  const pages = [<About />, <Portfolio />, <Contact />, <Resume/>];
   const [page, setPage] = useState(pages[0]);
-
+  
   return (
     <div className="App">
       <Navigation setPage={setPage} pages={pages} />

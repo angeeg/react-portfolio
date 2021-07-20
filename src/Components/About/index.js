@@ -50,17 +50,12 @@ function About() {
           veterinary technician for the past 6 years. While my hands on skills
           from my pervious careers don't relate much to skills needed in the
           coding environment, there are several qualities I've inherited that
-          will help me excel in coding. I am a problem solver, I have been
-          thrown many obstacles in both careers and always find a solution to
-          any problem that arises. Whether its prepping ingredients on the fly,
-          or placing an IV catheter on a patient who is unstable and getting
-          appropriate medications administered in a timely manner. Time
-          management is one of my best qualities, as in both professions
-          everything was on a schedule. Orders needed to get out on time so
-          customers were not unhappy. Patients need to get out in a timely
-          manner as we run on appointment scheduling. These are just a couple
-          examples of my qualities that will make me a great candidate to become
-          your new junior full-stack web developer.
+          will help me excel in coding. I am a problem solver, a hard worker, 
+          a fast learner, and I am very eager to learn. I excel in time management
+          since I'm used to working on a schedule, and having to get things done 
+          within a certain time frame. These are just a couple examples of my 
+          qualities that will make me a great candidate to become your new 
+          junior full-stack web developer.
         </p>
         </div>
 

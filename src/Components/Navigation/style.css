@@ -1,6 +1,6 @@
 .header {
     height: 150px;
-    background-image: url('../../images/header.jpeg');
+    background-image: url('header.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -26,6 +26,6 @@ li {
 
 li:hover {
  cursor: pointer;
- color:rgb(5, 134, 134);
+ color:rgb(65, 204, 255, 0.529);
 }
 

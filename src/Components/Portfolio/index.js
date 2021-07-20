@@ -64,13 +64,13 @@ function Portfolio() {
             github: "https://github.com/mirsaperez/edamame.git",
             language: "HTML/CSS/JavaScript"
         },
-        {
-            image: '/images/workdayscheduler.png',
-            name: "Work Day Scheduler",
-            URL: "https://angeeg.github.io/workdayschedule/",
-            github: "https://github.com/angeeg/workdayschedule.git",
-            language: "Third Party APIs"
-        },
+        // {
+        //     image: '/images/workdayscheduler.png',
+        //     name: "Work Day Scheduler",
+        //     URL: "https://angeeg.github.io/workdayschedule/",
+        //     github: "https://github.com/angeeg/workdayschedule.git",
+        //     language: "Third Party APIs"
+        // },
         {
             image: '/images/runbuddy.gif',
             name: "Run Buddy",

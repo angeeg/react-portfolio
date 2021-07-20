@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 15% ;
+}
+
+h1 {
+    margin-left: 15%;
+    margin-bottom: 10px ;
+}
+
+textarea {
+    height: 200px;
+}
+
+label{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+input, textarea {
+    border-color: rgb(0, 124, 177);
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+.form-btn {
+    margin-top: 10px;
+    width: 20%;
+    height: 30px;
+    background-color:rgb(0, 124, 177);
+    border-radius: 6px;
+    border-style: none;
+}
+

@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 function Navigation(props) {
   // variable goes here
-
   // return statement
   return (
     <>
@@ -23,6 +22,9 @@ function Navigation(props) {
           </li>
           <li className="mx-2" onClick={() => props.setPage(props.pages[2])}>
             <p>Contact</p>
+          </li>
+          <li className="mx-2" onClick={() => props.setPage(props.pages[3])}>
+            <p>Resume</p>
           </li>
         </ul>
         </div>
