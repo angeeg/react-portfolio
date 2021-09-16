@@ -9,7 +9,7 @@ function Navigation(props) {
       <div className="header">
         <div className="name">
         <h2>
-          <a href="/" style={{ textDecoration:'none' }}>Angeleena</a>
+          <a href="/" style={{ textDecoration:'none' }}>angeeg</a>
         </h2>
         </div>
         <div className="nav">

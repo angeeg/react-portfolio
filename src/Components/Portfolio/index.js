@@ -89,10 +89,10 @@ function Portfolio() {
               <img src={project.image} alt={project.name} />
               
               <ImageListItemBar
-                title={<a className='title' href={project.URL}>{project.name}</a>}
+                title={<a className='title' href={project.URL} target="_blank">{project.name}</a>}
                 subtitle={<span>{project.language}</span>}
                 actionIcon={
-                  <IconButton href={project.github} aria-label={`info about ${project.name}`} className={classes.icon}>
+                  <IconButton href={project.github} target="_blank" aria-label={`info about ${project.name}`} className={classes.icon}>
                     <GitHubIcon />
                   </IconButton>
                 }

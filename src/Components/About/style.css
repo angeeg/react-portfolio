@@ -5,10 +5,21 @@
     display: flex;
     flex-direction: column;
     width: 75%;
+    text-align: justify;
     
 }
 
-.avatar {
+.pic {
+    float: left;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+
+
+.avatar, h2 {
     margin-left: 15%;
 }
 

@@ -8,3 +8,9 @@
     list-style: outside;
     display: inline-block;
 }
+
+.frontlist:hover, .backlist:hover {
+    text-decoration: none;
+    color: black;
+    cursor: auto;
+}

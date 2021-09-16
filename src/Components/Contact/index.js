@@ -49,10 +49,12 @@ function Contact() {
     <div className="contact">
       <h1 data-testid="h1tag">Contact</h1>
 
-      <p>Please  <a href='mailto:angeleenasyse@gmail.com'>send me an email</a>  and I'd be more than happy to connect. </p>
+      <p>Email me at: <a href='mailto:angeleenasyse@gmail.com'>angeleenasyse@gmail.com</a> </p>
+      <p>Connect with me on <a href="https://www.linkedin.com/in/angeeg/">LinkedIn</a></p>
+      
     
 
-      <form className="form" onSubmit={handleSubmit}>
+      {/* <form className="form" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -88,7 +90,7 @@ function Contact() {
         className="form-btn">
         Submit
         </button>
-      </form>
+      </form> */}
     </div>
   );
 }
