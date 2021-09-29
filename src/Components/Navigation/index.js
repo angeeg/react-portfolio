@@ -23,9 +23,9 @@ function Navigation(props) {
           <li className="mx-2" onClick={() => props.setPage(props.pages[2])}>
             <p>Contact</p>
           </li>
-          <li className="mx-2" onClick={() => props.setPage(props.pages[3])}>
+          {/* <li className="mx-2" onClick={() => props.setPage(props.pages[3])}>
             <p>Resume</p>
-          </li>
+          </li> */}
         </ul>
         </div>
       </div>

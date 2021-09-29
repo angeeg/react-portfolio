@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
       color: 'rgba(255, 255, 255, 0.54)',
-    },
+    }
   }));
 
 function Portfolio() {
@@ -33,11 +33,12 @@ function Portfolio() {
             name: "Recipe Roster (Team Project)",
             URL: "https://recipe-roster.herokuapp.com/",
             github: "https://github.com/campbefs/recipe-roster.git",
-            language: "MERN Stack"
+            language: "MERN Stack",
+            summary: "The daily question in my household is, what do you want to do for dinner tonight?"
         },
         {
             image: '/images/moviequiz.png',
-            name: "Moive Quiz (Team Project)",
+            name: "Movie Quiz (Team Project)",
             URL: "https://outcast-movie-quiz.herokuapp.com/",
             github: "https://github.com/DevinPask/Outcast-Project.git",
             language: "Express.js/Sequelize/ORM/MVC"
@@ -96,8 +97,12 @@ function Portfolio() {
                     <GitHubIcon />
                   </IconButton>
                 }
+                
+                
               />
+           
             </ImageListItem>
+
           ))}
         </ImageList>
       </div>

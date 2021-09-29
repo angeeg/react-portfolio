@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Components/FontAwesome";
 import "./App.css";
 import Navigation from "./Components/Navigation";
 import Portfolio from "./Components/Portfolio";
@@ -8,7 +9,7 @@ import Contact from "./Components/Contact";
 import Resume from "./Components/Resume"
 
 function App() {
-  const pages = [<About />, <Portfolio />, <Contact />, <Resume/>];
+  const pages = [<About />, <Portfolio />, <Contact />];
   const [page, setPage] = useState(pages[0]);
   
   return (

@@ -9,14 +9,24 @@
     
 }
 
+.skillIcons {
+    align-self: center;
+}
+
+.picture {
+    align-self: center;
+}
+
 .pic {
-    float: left;
     width: 150px;
     height: 200px;
     border-radius: 50%;
     
 }
 
+.resume {
+    text-align: center;
+}
 
 
 .avatar, h2 {

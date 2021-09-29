@@ -9,3 +9,7 @@
     color: white;
     text-decoration: none;
 }
+
+.title:hover {
+    background-color: rgba(79, 82, 82, 0.509);
+}
